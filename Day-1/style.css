@@ -1,0 +1,175 @@
+/* .main{
+    width: 900px;
+    height: 200px;
+    border: 1px solid #111;
+    margin: auto;
+} */
+.inner{
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    border: 1px solid yellow;
+    background: #db2672;
+
+    animation-name: cr7;
+    animation-duration: 10s ;
+    animation-iteration-count: infinite;
+    position: relative;
+
+}
+@keyframes cr7 {
+    0%{
+        top:50px;
+        left: 0;
+    }
+    50%{
+        top:50px;
+        left: 750px;
+        transform:rotate(360deg);
+    }
+    100%{
+        top:50px;
+        left: 0;
+        
+    }
+}
+
+/* .main-2{
+    width: 900px;
+    height: 600px;
+    border: 1px solid #111;
+    margin: auto;
+} */
+.inner-2{
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    border: 1px solid yellow;
+    background: #11b18e;
+    animation-name: njr;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: njr;
+    position: relative;
+}
+@keyframes njr{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        top: 0;
+        left: 750px;
+    }
+    50%{
+        top: 400px;
+        left: 750px;
+    }
+    75%{
+        top:400px ;
+        left: 0;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+}
+/* .main-3{
+    width: 900px;
+    height: 600px;
+    border: 1px solid #111;
+    margin: auto;
+} */
+.inner-3{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 1px solid yellow;
+    background: #d10f0f;
+    animation-name: messy;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes messy{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        top: 0;
+        left: 750px;
+        border-radius: 50% 0 50% 0;
+    }
+    50%{
+        top: 400px;
+        left: 750px;
+        border-radius: 0 50% 0 50%;
+        opacity: .5;
+    }
+    75%{
+        top:400px ;
+        left: 200px;
+        border-radius: 50% 0 50% 0;
+    }
+    90%{
+        top: 0;
+        left: 200px;
+    }
+    100%{
+        top: 0;
+        left: 0;
+        border-radius: 50%;
+    }
+}
+/* .main-4{
+    width: 900px;
+    height: 600px;
+    border: 1px solid #111;
+    margin: auto;
+} */
+.cnm{
+    width: 100px;
+    height: 50px;
+    background: red;
+    animation-name:cr7njrm10 ;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+#div1 {
+    animation-timing-function: linear;
+    background:green;
+}
+#div2 {
+    animation-timing-function: ease;
+
+}
+#div3 {
+    animation-timing-function: ease-in;
+    background: rgba(21, 110, 3, 0.781);
+}
+#div4 {
+    animation-timing-function: ease-out;
+}
+#div5 {
+    animation-timing-function: ease-in-out;
+    background: green;
+}
+.cnm h2{
+    margin: 0;
+}
+@keyframes cr7njrm10{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    50%{
+        top: 0;
+        left: 1050px;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+}
